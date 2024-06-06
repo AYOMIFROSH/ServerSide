@@ -11,7 +11,7 @@ try {
     app.options('*', cors()); 
     app.use(bodyParser.json());
     app.use(cors({
-        origin: ['http://localhost:3000'],
+        origin: ['https://ayomifrosh-portfolio-building.vercel.app/'],
         credentials: true,
         methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
         allowedHeaders: 'Content-Type,Authorization',
